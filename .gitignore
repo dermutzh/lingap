@@ -1,0 +1,29 @@
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/configuration/
+Package.resolved
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
